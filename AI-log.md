@@ -165,7 +165,7 @@ Simple high-level design / data-flow description using Eraser.io
 
 This document describes the high-level architecture, data flow, and data models for MicroShift. The diagrams below are written in **Eraser.io** syntax.
 
-## 1. High-Level Architecture
+# 1. High-Level Architecture
 
 MicroShift is a serverless, client-side application. It relies on the browser for execution and storage, utilizing external APIs strictly for intelligence.
 
@@ -188,7 +188,7 @@ GeminiAPI -> ReactApp [label: "Structured Insights"]
 ///
 ```
 
-## 2. Core Data Flow (Sequence)
+# 2. Core Data Flow (Sequence)
 
 The flow from logging a day to receiving actionable advice.
 
@@ -213,7 +213,7 @@ App -> User: Visual Confirmation
 ///
 ```
 
-## 3. Data Model (Entity Relationship)
+# 3. Data Model (Entity Relationship)
 
 The structure of the data stored in the browser.
 
@@ -257,7 +257,7 @@ DayAnalysis ||--|{ MicroChange : suggests
 ///
 ```
 
-## 4. Component Hierarchy
+# 4. Component Hierarchy
 
 *   **App.tsx** (Router/Controller)
     *   **ActivityLogger** (Input)
@@ -265,6 +265,7 @@ DayAnalysis ||--|{ MicroChange : suggests
         *   Recharts (Pie Chart)
     *   **HistoryView** (Persistence Management)
     *   **Onboarding** (First-time Overlay)
+
 
 
 
