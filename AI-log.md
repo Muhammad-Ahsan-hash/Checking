@@ -18,7 +18,7 @@
 - It has a preview which can show you changes on each prompt.
 - It has access to github so it can clone others project and build on it.
 - It can push and commit into your own github.
-**Limitations:
+**Limitations:**
 - It lacks content generative capability of Chatgpt as it was designed for coding rather then generating img, documentations or analysis.
 
 **ERASER IO**
@@ -135,6 +135,7 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
 
 
 
