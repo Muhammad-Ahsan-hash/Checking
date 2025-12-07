@@ -3,18 +3,18 @@
 **1.CHATGPT (For analysis and Documentation)**
 
 <p>Usefulness: Useful for making decisions and analysis of problem.</p>
-<p>>Limitations: You should be detailed as possible for better solution and it struggle with coding as it doesnt Have a good solution of storing code and editing it. 
+<p>Limitations: You should be detailed as possible for better solution and it struggle with coding as it doesnt Have a good solution of storing code and editing it. 
 It struggle on big project.
 Doesnt support more then 960 line of code in canvas
 Cant access github for modification.
 Limited by its own model as GPT MODEL 5 is limited.</p>
 
 **2.AISTUDIO GOOGLE (For Code building, Cloning, Analysis of code and Bulding additional functionality)**
-Usefulness: Useful for vibe coding as it can make full scale project in minutes without major help.
+<p>Usefulness: Useful for vibe coding as it can make full scale project in minutes without major help.</p>
 It has a preview which can show you changes on each prompt.
 It has access to github so it can clone others project and build on it.
 It can push and commit into your own github.
-Limitations:It lacks content generative capability of Chatgpt as it was designed for coding rather then generating img, documentations or analysis.
+<p>Limitations:It lacks content generative capability of Chatgpt as it was designed for coding rather then generating img, documentations or analysis.</p>
 
 **ERASER IO**
 
@@ -130,6 +130,7 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
 
 
 
