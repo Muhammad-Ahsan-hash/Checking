@@ -31,10 +31,21 @@
 ## CHATGPT:
 
 # Prompt 1:
-You are a senior Requirements Engineer and your task is to read a client request so you can do anylsis of it with objective in my mind being: 1.The problem statement Pain point, primary users, and why the problem matters. Scope and explicit out-of-scope features. 2.MVP Implementation minimal system for the chosen problem 3. Release & Evolution Plan A short “release roadmap” (3-month, 1-year, 2-year view) describing how the product could evolve over time. At each stage, a few bullet points of planned improvements (for example, better algorithms, more data sources, richer UI, integrations, analytics), to emphasize product longevity and lifecycle thinking. 4.Use Cases & Design At least 3 detailed use cases. Simple high-level design / data-flow description 5.TestPlan.md 3–5 test cases with input, steps, expected and actual outcomes. 5. F. UI Sketch & Vision A simple UI sketch or wireframe (image or markdown-based ASCII/PlantUML) showing how the “final product” UI might look if this system were fully developed beyond the MVP. 1–2 paragraphs explaining key UI decisions (for example, how information is organized, how the user flow supports the pain point). Now these are your objective. Keep in mind we are making a initial MVP which should only support the functionality required by the client. You are allowed to ask all the intial questions before moving forward with the task.
+You are a senior Requirements Engineer and your task is to read a client request so you can do anylsis of it with objective in my mind being: 
+1.The problem statement Pain point, primary users, and why the problem matters. Scope and explicit out-of-scope features. 
+2.MVP Implementation minimal system for the chosen problem 
+3. Release & Evolution Plan A short “release roadmap” (3-month, 1-year, 2-year view) describing how the product could evolve over time. At each stage, a few bullet points of planned improvements (for example, better algorithms, more data sources, richer UI, integrations, analytics), to emphasize product longevity and lifecycle thinking. 
+4.Use Cases & Design At least 3 detailed use cases. Simple high-level design / data-flow description 5.TestPlan.md 3–5 test cases with input, steps, expected and actual outcomes. 
+5. F. UI Sketch & Vision A simple UI sketch or wireframe (image or markdown-based ASCII/PlantUML) showing how the “final product” UI might look if this system were fully developed beyond the MVP. 1–2 paragraphs explaining key UI decisions (for example, how information is organized, how the user flow supports the pain point). Now these are your objective. Keep in mind we are making a initial MVP which should only support the functionality required by the client. You are allowed to ask all the intial questions before moving forward with the task.
 
 # Prompt 2:
-will be answered by the client description 2: the client is me and my actual need comes from fulfilling the task I was given for a project. 3. Multiple sections. 4. Semi Formal. 5. MVP should be designed to be minial in functionality but richer in being user friendly. 6:This product would be aimed to be a web application. you are happy to suggest any other way if that provides relief in development. 7: I would prefer Markdown Request: Design a “habit and time-use” assistant that helps a user reflect on how they spend their day and suggests small, positive adjustments. The user logs their activities for a day (or a typical day) with categories and durations, such as work, social media, study, exercise, family time, and sleep, along with one or more personal goals (for example, “more mindfulness”, “more reading”, “less social media”). The system summarizes how time is distributed, surfaces simple insights (for example, areas of over-investment or neglect), and proposes a few micro-changes like shifting some minutes towards productive or mindful activities. The focus is on awareness and realistic, incremental improvement rather than strict habit enforcement.
+will be answered by the client description
+2: the client is me and my actual need comes from fulfilling the task I was given for a project. 
+3. Multiple sections. 
+4. Semi Formal. 
+5. MVP should be designed to be minial in functionality but richer in being user friendly. 
+6:This product would be aimed to be a web application. you are happy to suggest any other way if that provides relief in development. 
+7: I would prefer Markdown Request: Design a “habit and time-use” assistant that helps a user reflect on how they spend their day and suggests small, positive adjustments. The user logs their activities for a day (or a typical day) with categories and durations, such as work, social media, study, exercise, family time, and sleep, along with one or more personal goals (for example, “more mindfulness”, “more reading”, “less social media”). The system summarizes how time is distributed, surfaces simple insights (for example, areas of over-investment or neglect), and proposes a few micro-changes like shifting some minutes towards productive or mindful activities. The focus is on awareness and realistic, incremental improvement rather than strict habit enforcement.
 
 # Prompt 3:
 Manually as with the use of gemini API, it would easiler make use of this data. 2: A 3: A 4: B 5: no 6: C and make this mvp uses gemini api to do all the task. while the application itself just collect data, send data and output data
@@ -254,6 +265,7 @@ DayAnalysis ||--|{ MicroChange : suggests
         *   Recharts (Pie Chart)
     *   **HistoryView** (Persistence Management)
     *   **Onboarding** (First-time Overlay)
+
 
 
 
