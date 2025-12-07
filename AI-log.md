@@ -13,7 +13,7 @@
 
 ## 2.AISTUDIO GOOGLE (For Code building, Cloning, Analysis of code and Bulding additional functionality)
 
-**Usefulness: 
+**Usefulness:**  
 - Useful for vibe coding as it can make full scale project in minutes without major help.**
 - It has a preview which can show you changes on each prompt.
 - It has access to github so it can clone others project and build on it.
@@ -135,6 +135,7 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
 
 
 
