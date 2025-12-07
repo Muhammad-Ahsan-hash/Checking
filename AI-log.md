@@ -21,7 +21,7 @@
 **Limitations:**
 - It lacks content generative capability of Chatgpt as it was designed for coding rather then generating img, documentations or analysis.
 
-**ERASER IO:**
+## ERASER IO:
 **Usefulness:** 
 -
 -
@@ -143,6 +143,7 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
 
 
 
