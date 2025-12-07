@@ -4,7 +4,7 @@
 
 **Usefulness:** 
 - Useful for making decisions and analysis of problem.
-- 
+  
 **Limitations:** 
 - You should be detailed as possible for better solution and it struggle with coding as it doesnt Have a good solution of storing code and editing it. 
 - It struggle on big project.
@@ -19,7 +19,7 @@
 - It has a preview which can show you changes on each prompt.
 - It has access to github so it can clone others project and build on it.
 - It can push and commit into your own github.
-- 
+  
 **Limitations:**
 - It lacks content generative capability of Chatgpt as it was designed for coding rather then generating img, documentations or analysis.
 
@@ -254,6 +254,7 @@ DayAnalysis ||--|{ MicroChange : suggests
         *   Recharts (Pie Chart)
     *   **HistoryView** (Persistence Management)
     *   **Onboarding** (First-time Overlay)
+
 
 
 
