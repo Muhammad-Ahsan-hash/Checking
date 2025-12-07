@@ -23,14 +23,8 @@
 
 ## ERASER IO:
 **Usefulness:** 
--
--
--
-**Limitations:**
--
--
--
--
+- Its a good platform for making diagram using Ai prompt or using code
+
 
 # CHATGPT:
 
@@ -143,6 +137,13 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
+# Prompt 5
+
+Simple high-level design / data-flow description using Eraser.io
+
+
+
 
 
 
