@@ -3,7 +3,7 @@
 ## 1.CHATGPT (For analysis and Documentation)
 
 **Usefulness:** 
-- Useful for making decisions and analysis of problem.**
+- Useful for making decisions and analysis of problem.
 **Limitations:** 
 - You should be detailed as possible for better solution and it struggle with coding as it doesnt Have a good solution of storing code and editing it. 
 - It struggle on big project.
@@ -252,6 +252,7 @@ DayAnalysis ||--|{ MicroChange : suggests
         *   Recharts (Pie Chart)
     *   **HistoryView** (Persistence Management)
     *   **Onboarding** (First-time Overlay)
+
 
 
 
