@@ -28,9 +28,9 @@
 - Its a good platform for making diagram using Ai prompt or using code
 
 
-## CHATGPT:
+# CHATGPT:
 
-# Prompt 1:
+## Prompt 1:
 You are a senior Requirements Engineer and your task is to read a client request so you can do anylsis of it with objective in my mind being: 
 1.The problem statement Pain point, primary users, and why the problem matters. Scope and explicit out-of-scope features. 
 2.MVP Implementation minimal system for the chosen problem 
@@ -38,7 +38,7 @@ You are a senior Requirements Engineer and your task is to read a client request
 4.Use Cases & Design At least 3 detailed use cases. Simple high-level design / data-flow description 5.TestPlan.md 3–5 test cases with input, steps, expected and actual outcomes. 
 5. F. UI Sketch & Vision A simple UI sketch or wireframe (image or markdown-based ASCII/PlantUML) showing how the “final product” UI might look if this system were fully developed beyond the MVP. 1–2 paragraphs explaining key UI decisions (for example, how information is organized, how the user flow supports the pain point). Now these are your objective. Keep in mind we are making a initial MVP which should only support the functionality required by the client. You are allowed to ask all the intial questions before moving forward with the task.
 
-# Prompt 2:
+## Prompt 2:
 will be answered by the client description
 2: the client is me and my actual need comes from fulfilling the task I was given for a project. 
 3. Multiple sections. 
@@ -47,24 +47,24 @@ will be answered by the client description
 6:This product would be aimed to be a web application. you are happy to suggest any other way if that provides relief in development. 
 7: I would prefer Markdown Request: Design a “habit and time-use” assistant that helps a user reflect on how they spend their day and suggests small, positive adjustments. The user logs their activities for a day (or a typical day) with categories and durations, such as work, social media, study, exercise, family time, and sleep, along with one or more personal goals (for example, “more mindfulness”, “more reading”, “less social media”). The system summarizes how time is distributed, surfaces simple insights (for example, areas of over-investment or neglect), and proposes a few micro-changes like shifting some minutes towards productive or mindful activities. The focus is on awareness and realistic, incremental improvement rather than strict habit enforcement.
 
-# Prompt 3:
+## Prompt 3:
 Manually as with the use of gemini API, it would easiler make use of this data. 2: A 3: A 4: B 5: no 6: C and make this mvp uses gemini api to do all the task. while the application itself just collect data, send data and output data
 
-# Prompt 4:
+## Prompt 4:
 Let me share you the product I created with your documentations. How would you like it to be shared, Its made on React
 
-# Prompt 5:
+## Prompt 5:
 Will github option would gave you the ability to analysis of the code aswell?
 
-# Prompt 6:
+## Prompt 6:
 https://github.com/Muhammad-Ahsan-hash/Micro-Shift
 
-# Prompt 7:
+## Prompt 7:
 Is the current sprint, aligned with the documentation and does this fulfil the client needs. Say yes if thats the case if no then explain why
 
-## AISTUDIO GOOGLE:
+# AISTUDIO GOOGLE:
 
-# Prompt 1:
+## Prompt 1:
 Create a web application using this application description:
 Design a “habit and time-use” assistant that helps a user reflect on how they spend their day and
 suggests small, positive adjustments. The user logs their activities for a day (or a typical day) with
@@ -112,10 +112,10 @@ Complex habit coaching, streaks, gamification, or scheduling.
 Real-time tracking or background timers.
 Detailed analytics dashboards beyond the small-history summaries.
 
-# Prompt 2
+## Prompt 2
 Application is good for mobile view but for desktop view, its not responsive.
 
-# Prompt 3
+## Prompt 3
 alright lets start matching my notes and the application. so that my vision mvp matches with the product.
 MVP Implementation (minimal usable system)
 Core user flows (MVP)
@@ -144,28 +144,28 @@ Save day to local history (client-side, up to N days).
 CSV export/import (optional but desired).
 Backend proxy endpoint for Gemini calls (authentication + rate limiting basic handling).
 
-# Prompt 4
+## Prompt 4
 
 Refinement needed: 
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
 
-# Prompt 5
+## Prompt 5
 
 Simple high-level design / data-flow description using Eraser.io
 
 
 
 
-## Eraser.io:
+# Eraser.io:
 
 # Prompt 1:
 # MicroShift Design Document
 
 This document describes the high-level architecture, data flow, and data models for MicroShift. The diagrams below are written in **Eraser.io** syntax.
 
-# 1. High-Level Architecture
+## 1. High-Level Architecture
 
 MicroShift is a serverless, client-side application. It relies on the browser for execution and storage, utilizing external APIs strictly for intelligence.
 
@@ -188,7 +188,7 @@ GeminiAPI -> ReactApp [label: "Structured Insights"]
 ///
 ```
 
-# 2. Core Data Flow (Sequence)
+## 2. Core Data Flow (Sequence)
 
 The flow from logging a day to receiving actionable advice.
 
@@ -213,7 +213,7 @@ App -> User: Visual Confirmation
 ///
 ```
 
-# 3. Data Model (Entity Relationship)
+## 3. Data Model (Entity Relationship)
 
 The structure of the data stored in the browser.
 
@@ -257,7 +257,7 @@ DayAnalysis ||--|{ MicroChange : suggests
 ///
 ```
 
-# 4. Component Hierarchy
+## 4. Component Hierarchy
 
 *   **App.tsx** (Router/Controller)
     *   **ActivityLogger** (Input)
@@ -265,6 +265,7 @@ DayAnalysis ||--|{ MicroChange : suggests
         *   Recharts (Pie Chart)
     *   **HistoryView** (Persistence Management)
     *   **Onboarding** (First-time Overlay)
+
 
 
 
