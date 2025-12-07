@@ -14,15 +14,23 @@
 ## 2.AISTUDIO GOOGLE (For Code building, Cloning, Analysis of code and Bulding additional functionality)
 
 **Usefulness:**  
-- Useful for vibe coding as it can make full scale project in minutes without major help.**
+- Useful for vibe coding as it can make full scale project in minutes without major help.
 - It has a preview which can show you changes on each prompt.
 - It has access to github so it can clone others project and build on it.
 - It can push and commit into your own github.
 **Limitations:**
 - It lacks content generative capability of Chatgpt as it was designed for coding rather then generating img, documentations or analysis.
 
-**ERASER IO**
-
+**ERASER IO:**
+**Usefulness:** 
+-
+-
+-
+**Limitations:**
+-
+-
+-
+-
 
 # CHATGPT:
 
@@ -135,6 +143,7 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
 
 
 
