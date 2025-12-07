@@ -11,7 +11,7 @@
 -Cant access github for modification.
 -Limited by its own model as GPT MODEL 5 is limited.
 
-##2.AISTUDIO GOOGLE (For Code building, Cloning, Analysis of code and Bulding additional functionality)
+## 2.AISTUDIO GOOGLE (For Code building, Cloning, Analysis of code and Bulding additional functionality)
 
 **Usefulness: Useful for vibe coding as it can make full scale project in minutes without major help.**
 -It has a preview which can show you changes on each prompt.
@@ -134,6 +134,7 @@ Refinement needed:
 
 Structured, guaranteed 2–3 insights per day.
 Validation for realistic micro-changes.
+
 
 
 
