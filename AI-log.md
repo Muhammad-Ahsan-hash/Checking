@@ -26,6 +26,9 @@
 ## ERASER IO:
 **Usefulness:** 
 - Its a good platform for making diagram using Ai prompt or using code
+  
+**Limitations:**
+- Limited diagram types / missing advanced diagram kinds.
 
 
 # CHATGPT:
@@ -265,6 +268,7 @@ DayAnalysis ||--|{ MicroChange : suggests
         *   Recharts (Pie Chart)
     *   **HistoryView** (Persistence Management)
     *   **Onboarding** (First-time Overlay)
+
 
 
 
